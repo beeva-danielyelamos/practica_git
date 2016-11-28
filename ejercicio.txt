@@ -1,0 +1,75 @@
+ 1026  28/11/16 11:54:47     mkdir practica_git
+ 1027  28/11/16 11:54:48     ls
+ 1028  28/11/16 11:54:51     cd practica_git/
+ 1029  28/11/16 11:54:51     ls
+ 1030  28/11/16 11:56:44     echo "# practica_git" >> README.md
+ 1031  28/11/16 11:56:48     git init
+ 1032  28/11/16 11:56:56     git commit -m "my first commit"
+ 1033  28/11/16 11:57:04     git add README.md 
+ 1034  28/11/16 11:57:05     git commit -m "my first commit"
+ 1035  28/11/16 11:57:12     git remote add origin https://github.com/beeva-danielyelamos/practica_git.git
+ 1036  28/11/16 11:57:19     git push -u origin master
+ 1037  28/11/16 11:58:16     git branch Desarollo
+ 1038  28/11/16 11:58:19     git status
+ 1039  28/11/16 11:58:26     git log
+ 1040  28/11/16 11:58:38     gi checkout Desarrollo
+ 1041  28/11/16 11:58:42     git checkout Desarrollo
+ 1042  28/11/16 11:58:50     git branch -d Desarrollo
+ 1043  28/11/16 11:58:57     git branch 
+ 1044  28/11/16 11:59:06     git checkout Desarollo
+ 1045  28/11/16 11:59:11     git branch
+ 1046  28/11/16 11:59:26     git branch --rename desarrollo
+ 1047  28/11/16 11:59:47     git branch --m desarrollo
+ 1048  28/11/16 11:59:57     git branch --move desarrollo
+ 1049  28/11/16 12:00:01     git branch
+ 1050  28/11/16 12:00:12     git branch preproduccion
+ 1051  28/11/16 12:00:41     history
+ 1052  28/11/16 12:01:01     history | grep -l 10
+ 1053  28/11/16 12:01:06     history | grep -c 10
+ 1054  28/11/16 12:01:11     history | grep -l 20
+ 1055  28/11/16 12:01:13     ll
+ 1056  28/11/16 12:01:41     git branch
+ 1057  28/11/16 12:01:46     vim README.md 
+ 1058  28/11/16 12:02:13     git checkout preproduccion 
+ 1059  28/11/16 12:02:17     vim README.md 
+ 1060  28/11/16 12:02:22     ll
+ 1061  28/11/16 12:02:26     cat README.md 
+ 1062  28/11/16 12:02:30     git branch
+ 1063  28/11/16 12:02:36     git checkout master 
+ 1064  28/11/16 12:02:43     cat README.md 
+ 1065  28/11/16 12:03:07     ll
+ 1066  28/11/16 12:03:48     git branch
+ 1067  28/11/16 12:03:54     git checkout desarrollo 
+ 1068  28/11/16 12:03:55     ll
+ 1069  28/11/16 12:04:46     cat README.md 
+ 1070  28/11/16 12:04:56     git checkout master 
+ 1071  28/11/16 12:04:59     cat README.md 
+ 1072  28/11/16 12:05:10     git checkout desarrollo 
+ 1073  28/11/16 12:05:11     ls
+ 1074  28/11/16 12:05:15     vim README.md 
+ 1075  28/11/16 12:05:22     l
+ 1076  28/11/16 12:05:28     git checkout master 
+ 1077  28/11/16 12:05:29     ls
+ 1078  28/11/16 12:05:33     cat README.md 
+ 1079  28/11/16 12:05:39     ls
+ 1080  28/11/16 12:07:05     ll
+ 1081  28/11/16 12:07:07     git branch
+ 1082  28/11/16 12:07:12     git checkout desarrollo 
+ 1083  28/11/16 12:07:16     cat README.md 
+ 1084  28/11/16 12:07:16     ls
+ 1085  28/11/16 12:07:39     echo "desarrollo danielyelamos"> README.md 
+ 1086  28/11/16 12:07:42     cat README.md 
+ 1087  28/11/16 12:07:45     git add *
+ 1088  28/11/16 12:07:51     git commit -m "desarrollo cambiado"
+ 1089  28/11/16 12:08:00     git checkout master 
+ 1090  28/11/16 12:08:05     cat README.md 
+ 1091  28/11/16 12:08:22     git checkout preproduccion 
+ 1092  28/11/16 12:08:23     ll
+ 1093  28/11/16 12:08:25     cat README.md 
+ 1094  28/11/16 12:08:41     echo "prepoduccion danielyelamos"> README.md 
+ 1095  28/11/16 12:08:45     git add *
+ 1096  28/11/16 12:08:58     git commit -m "prepoduccion cambiado"
+ 1097  28/11/16 12:13:14     ll
+ 1098  28/11/16 12:13:19     git branch
+ 1099  28/11/16 12:13:30     history
+
